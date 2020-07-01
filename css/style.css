@@ -1,0 +1,141 @@
+body {
+  background-color: #fff;
+  color: #40514e;
+  margin: 0;
+  padding: 0;
+  font-family: "Merriweather", serif;
+  font-size: 1em;
+  text-align: center;
+}
+
+p {
+  line-height: 2;
+}
+
+hr {
+  border: dotted #eaf6f6 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 50px auto;
+}
+
+.top-container {
+  background-color: #eaf6f6;
+  padding-top: 100px;
+  position: relative;
+}
+
+.middle-container {
+  padding-top: 50px;
+  margin: 100px 0;
+}
+
+.intro {
+  width: 30%;
+  margin: 0 auto;
+}
+h1 {
+  font-family: "Sacramento", cursive;
+  margin: 50px auto 0 auto;
+  color: #66bfbf;
+  font-size: 7.625rem;
+}
+
+h2 {
+  font-family: "Montserrat", sans-serif;
+  color: #66bfbf;
+  font-weight: normal;
+  font-size: 2rem;
+}
+
+h3 {
+  font-family: "Montserrat", sans-serif;
+  color: #11999e;
+}
+
+#top-cloud {
+  height: 140px;
+  bottom: 190px;
+  right: 300px;
+  position: absolute;
+  display: none;
+}
+
+#bottom-cloud {
+  height: 140px;
+  bottom: 190px;
+  left: 300px;
+  position: absolute;
+  display: none;
+}
+
+.bottom-container {
+  padding: 50px 0 20px;
+  background-color: #66bfbf;
+}
+
+a {
+  color: #11999e;
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+  margin: 0 20px;
+}
+
+a:hover {
+  color: #eaf6f6;
+}
+.footer-link a:hover {
+  color: #eaf6f6;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.img1 {
+  width: 25%;
+  float: left;
+  margin-right: 2rem;
+  border-radius: 50%;
+}
+
+.img2 {
+  width: 25%;
+  float: right;
+  margin-left: 2rem;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+.outro {
+  width: 40%;
+  margin: 40px auto;
+}
+.myButton {
+  background-color: #66bfbf;
+  border-radius: 14px;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: "Montserrat", sans-serif;
+  font-size: 17px;
+  padding: 18px 29px;
+  text-decoration: none;
+}
+.myButton:hover {
+  background-color: #66bfbf;
+}
+.myButton:active {
+  position: relative;
+  top: 1px;
+}
+
+.copy {
+  color: #eaf6f6;
+  font-size: 0.75rem;
+  padding: 20px;
+}
